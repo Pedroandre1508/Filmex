@@ -1,0 +1,107 @@
+.cabelhaco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    transition: all 0.5s ease; 
+    position: absolute; 
+}
+
+.cabecalho.topo {
+    top: 0;
+    transform: translateY(0);
+    background-size: 400% 100%;
+    
+}
+
+.cabecalhoTitulo {
+    font-size: 8rem;
+    line-height: normal;
+    margin: center;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(100deg, #00578f,#50b8f8,#014068);
+    background-size: 400% 100%;
+    animation: degrade 10s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.cabecalhoTitulo a:hover {
+    text-decoration: underline;
+    
+}
+
+.cabecalhoTitulo.tamanhoTitulo {
+    font-size: 5rem;
+
+}
+
+.cabecalhoPesquisa {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 1000px;
+    padding: 35px;
+    border-radius: 15px;
+    background-color: rgb(182, 182, 182);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 4px solid; 
+    border-image: linear-gradient(144deg, #014d7c, #016caf 50%, #0076be 10%) 1; /* Aplica o gradiente na borda */
+}
+
+.pesquisaFilme {
+    width: 70%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    color: black;
+    outline:none;
+    margin-right: 0;
+
+}
+
+.pesquisaAno {
+    width: 15%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    margin-right: 0; /* Remove margem direita */
+}
+
+.botao {
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    cursor: pointer;
+    pointer-events: pointer;
+    background-color: transparent;
+    margin-left: 100px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+    .cabecalho {
+        width: 90vw;
+    }
+    .cabecalhoPesquisa {
+        width: 100%;
+    }
+}
+
+@keyframes degrade {
+    0%{background-position-x: 0%;}
+    100%{background-position: 100%;}
+
+}

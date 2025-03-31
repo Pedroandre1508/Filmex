@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Filmex</title>
+
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/fundo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalhoTitulo"><a href="#" id="tituloLink">Filmex</a></h1>
+
+        <div class="cabecalhoPesquisa">
+            <input type="text" class="pesquisaFilme" id="title" name="title" placeholder="Digite o nome do filme" required>
+            <input type="text" class="pesquisaAno" id="year" name="year" placeholder="Ano" required>
+            <span type="submit" class="botao">
+                <img src="img/lupa.svg" alt="" height="30px">
+            </span>
+        </div>
+    </header>
+    <div class="resultadoPesquisa"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>

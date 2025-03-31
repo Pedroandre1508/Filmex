@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(to bottom, #000000,#272727);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: normal;
+}
+
+body.solid-background {
+    background-image: none;
+    background: linear-gradient(to bottom, #2c2e30,#404244);
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    min-height: 30vw; 
+    width: 100vw;
+}
+
+.card-img {
+    width: 440px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 160px;
+}
+
+.card-content {
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 100px;
+    max-width: 1000px;
+}
+
+.card-content h2 {
+    color: #fa9c1d;
+    margin-top: 0;
+    font-size: 3em;
+}
+
+.sinopse {
+    color: #fa9c1d;
+    font-size: 25px;
+}
+
+.reviews {
+    color: #fa9c1d;
+    font-size: 25px;
+}
+
+.card-content ul {
+    list-style-type: disc;
+    padding-left: 10px;
+}
+
+#filmes {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
