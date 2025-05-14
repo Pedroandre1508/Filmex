@@ -1,8 +1,8 @@
-# Consultor de filmes consumindo API
+# 🎥Consultor de filmes consumindo API
 
 Este projeto implementa um sistema em **JavaScript** que permite a consulta de filmes pelo título e ano. O sistema retorna informações como **sinopse** e até **3 reviews** traduzidos para o idioma português.
 
-## Funcionalidades
+## 🧰Funcionalidades
 
 - Consulta de filmes pelo título e ano.
 - Retorna:
@@ -13,12 +13,12 @@ Este projeto implementa um sistema em **JavaScript** que permite a consulta de f
   - **Poster** do filme.
 - Tradução automática das informações para **português** ou outro idioma configurado.
 
-## Pré-requisitos
+## ⚙️Pré-requisitos
 
 - **Node.js** instalado na máquina.
 - Extensão **Live Server** ou similar para rodar a interface web.
 
-## Como executar o sistema
+## ▶️Como executar o sistema
 
 ### Iniciar o servidor backend:
 
