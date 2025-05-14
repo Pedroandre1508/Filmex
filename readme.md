@@ -1,4 +1,4 @@
-# Trabalho - API
+# Consultor de filmes consumindo API
 
 Este projeto implementa um sistema em **JavaScript** que permite a consulta de filmes pelo título e ano. O sistema retorna informações como **sinopse** e até **3 reviews** traduzidos para o idioma português.
 
